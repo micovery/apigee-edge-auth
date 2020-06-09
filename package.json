@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Tool to automate authentication to the Apigee Edge UI.",
   "bin": {
-    "apigee-edge-auth": "apigee-edge-auth.js"
+    "apigee-edge-auth": "bin/apigee-edge-auth.js"
   },
   "dependencies": {
     "cli-spinners": "^2.3.0",
