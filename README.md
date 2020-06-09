@@ -10,6 +10,8 @@ For all other Apigee Edge APIs, see the [Apigee docs](https://docs.apigee.com/re
 
 Note that this tool works with [Apigee Edge](https://docs.apigee.com/api-platform/). It does not work with Apigee Hybrid.
 
+## Disclaimer
+This tool is for experimental purposes. The undocumented Apigee Edge APIs, or even the login process can change at any time. Use it at your own risk.
 
 ## Prerequisites
  * Node.js (tested with v12.18.0)
