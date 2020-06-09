@@ -4,7 +4,7 @@ This tool allows you to authenticate to the Apigee UI, and save the security HTT
 to disk. What's the point of this you ask? By doing this, you can use cURL to call the same
 APIs that the Apigee UI uses. 
 
-This is sometimes useful for automation purposes if you want to call Apigee APIs for features that are still in alpha, or beta stage.
+This is sometimes useful for automation purposes if you want to call Apigee Edge APIs for features that are still in alpha, or beta stage.
 
 For all other Apigee Edge APIs, see the [Apigee docs](https://docs.apigee.com/reference/apis).
 
@@ -51,7 +51,7 @@ The login workflow is as follows:
   4. Click Sign In
   5. Wait for Apigee page to load
   
-If all five steps are successful,  then the script goes ahead and dumps the following HTTP headers to a file called `auth.txt`:
+If all five steps are successful, then the script goes ahead and dumps the following HTTP headers to a file called `auth.txt`:
 
 ```shell script
 x-requested-with: XMLHttpRequest
